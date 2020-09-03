@@ -3,7 +3,7 @@
 
 # Workshops
 
-'''' bash
+''''
 /proc/self/
 |-- attr
 |-- cwd -> /proc
