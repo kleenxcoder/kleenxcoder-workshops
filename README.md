@@ -3,7 +3,7 @@
 
 # Workshops
 
-''''
+'''
 /proc/self/
 |-- attr
 |-- cwd -> /proc
@@ -32,4 +32,4 @@
         | `-- 3 -> /proc/15589/task/15589/fd
         |-- fdinfo
         `-- root -> /
-''''
+'''
