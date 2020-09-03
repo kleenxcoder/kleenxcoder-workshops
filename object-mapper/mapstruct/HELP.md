@@ -1,21 +1,26 @@
-# Getting Started
+# MapStruct
 
-### Reference Documentation
-For further reference, please consider the following sections:
+## Workshop
+> In this workshop I have shown how you can easily implement mapstruct for mapping. This shows a simple example. For further and even more complex mappers follow the links mentioned below.
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#boot-features-developing-web-applications)
-* [Spring Data JPA](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#boot-features-jpa-and-spring-data)
-* [Spring Boot DevTools](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#using-boot-devtools)
-* [Spring Configuration Processor](https://docs.spring.io/spring-boot/docs/2.3.3.RELEASE/reference/htmlsingle/#configuration-metadata-annotation-processor)
+## Application
+> Here are the most important links
+- http://localhost:8080/h2-console
+- http://localhost:8080/api/kleenxcoder/user/
+- http://localhost:8080/api/kleenxcoder/user/generate/ 
 
-### Guides
-The following guides illustrate how to use some features concretely:
+## Links
+- https://github.com/mapstruct/mapstruct
+- https://mapstruct.org/
+- https://www.baeldung.com/mapstruct
 
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
-* [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
+## Contact
+> If you have any questions don't hesitate to reach out to me. Probably twitter will be the fastest way!
 
+twitter: https://twitter.com/kleenxcoder
+
+udemy: https://www.udemy.com/user/peter-stritzinger/
+
+www: http://www.kleenxcoder.com/
+
+youtube: https://www.youtube.com/channel/UCd3SWZz1vebfUffRhi43BEg
