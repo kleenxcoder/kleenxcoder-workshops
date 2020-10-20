@@ -1,4 +1,4 @@
-package kleenxcoder.spring.rest.jackson;
+package com.kleenxcoder.spring.rest.jackson;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package kleenxcoder.spring.rest.jackson;
+package com.kleenxcoder.spring.rest.jackson;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
