@@ -5,7 +5,7 @@
 > This project has two entities (User, UserAction) having a one2many relation. We use two REST controller to query data. We do not use @JsonIgnore to avoid endless cycle loop. Instead we are using @JsonView to explicitly define the granularity we want to display.
 
 ## URL's
-http://localhost:8080/h2-console/
-http://localhost:8080/api/kleenxcoder/user/generate/
-http://localhost:8080/api/kleenxcoder/user/
-http://localhost:8080/api/kleenxcoder/useraction/
+http://localhost:8080/h2-console/ </br>
+http://localhost:8080/api/kleenxcoder/user/generate/ </br>
+http://localhost:8080/api/kleenxcoder/user/ </br>
+http://localhost:8080/api/kleenxcoder/useraction/ </br>
