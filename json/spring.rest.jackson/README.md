@@ -9,3 +9,6 @@ http://localhost:8080/h2-console/ </br>
 http://localhost:8080/api/kleenxcoder/user/generate/ </br>
 http://localhost:8080/api/kleenxcoder/user/ </br>
 http://localhost:8080/api/kleenxcoder/useraction/ </br>
+
+# References
+https://www.baeldung.com/building-a-restful-web-service-with-spring-and-java-based-configuration
