@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable.rest;
+package com.kleenxcoder.optaplanner.timetable.rest;
 
 import java.util.UUID;
 import java.util.concurrent.ExecutionException;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kleenxcoder.octaplanner.timetable.domain.TimeTable;
+import com.kleenxcoder.optaplanner.timetable.domain.TimeTable;
 
 import lombok.extern.slf4j.Slf4j;
 

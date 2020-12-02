@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable.solver;
+package com.kleenxcoder.optaplanner.timetable.solver;
 
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 import org.optaplanner.core.api.score.stream.Constraint;
@@ -6,7 +6,7 @@ import org.optaplanner.core.api.score.stream.ConstraintFactory;
 import org.optaplanner.core.api.score.stream.ConstraintProvider;
 import org.optaplanner.core.api.score.stream.Joiners;
 
-import com.kleenxcoder.octaplanner.timetable.domain.Lesson;
+import com.kleenxcoder.optaplanner.timetable.domain.Lesson;
 
 public class TimeTableConstraintProvider implements ConstraintProvider {
 

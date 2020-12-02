@@ -1,4 +1,4 @@
-# Oktaplanner
+# OptaPlanner
 > Demo implementation according to oktaplanner docu
 
 
@@ -11,5 +11,5 @@ curl -i -X POST http://localhost:8080/timeTable/solve -H "Content-Type:applicati
 ### Guides
 The following guides illustrate how to use some features concretely:
 
-* [Oktaplanner Docu](https://docs.optaplanner.org/8.0.0.Final/optaplanner-docs/html_single/index.html#springBootJavaQuickStart)
-* [Oktaplanner Website](https://www.optaplanner.org/)
+* [OptaPlanner Docu](https://docs.optaplanner.org/8.0.0.Final/optaplanner-docs/html_single/index.html#springBootJavaQuickStart)
+* [OptaPlanner Website](https://www.optaplanner.org/)

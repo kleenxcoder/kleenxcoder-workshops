@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable.domain;
+package com.kleenxcoder.optaplanner.timetable.domain;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

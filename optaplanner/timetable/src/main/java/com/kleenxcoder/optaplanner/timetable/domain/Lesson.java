@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable.domain;
+package com.kleenxcoder.optaplanner.timetable.domain;
 
 import org.optaplanner.core.api.domain.entity.PlanningEntity;
 import org.optaplanner.core.api.domain.variable.PlanningVariable;

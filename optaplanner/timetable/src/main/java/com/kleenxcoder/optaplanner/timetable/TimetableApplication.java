@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable;
+package com.kleenxcoder.optaplanner.timetable;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

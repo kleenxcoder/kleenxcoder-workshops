@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable;
+package com.kleenxcoder.optaplanner.timetable;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

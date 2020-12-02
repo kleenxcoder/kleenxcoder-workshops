@@ -1,4 +1,4 @@
-package com.kleenxcoder.octaplanner.timetable;
+package com.kleenxcoder.optaplanner.timetable;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -14,11 +14,11 @@ import org.junit.jupiter.api.Timeout;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import com.kleenxcoder.octaplanner.timetable.domain.Lesson;
-import com.kleenxcoder.octaplanner.timetable.domain.Room;
-import com.kleenxcoder.octaplanner.timetable.domain.TimeTable;
-import com.kleenxcoder.octaplanner.timetable.domain.Timeslot;
-import com.kleenxcoder.octaplanner.timetable.rest.TimeTableController;
+import com.kleenxcoder.optaplanner.timetable.domain.Lesson;
+import com.kleenxcoder.optaplanner.timetable.domain.Room;
+import com.kleenxcoder.optaplanner.timetable.domain.TimeTable;
+import com.kleenxcoder.optaplanner.timetable.domain.Timeslot;
+import com.kleenxcoder.optaplanner.timetable.rest.TimeTableController;
 
 @SpringBootTest(properties = {
         "optaplanner.solver.termination.spent-limit=1h", // Effectively disable this termination in favor of the best-score-limit
