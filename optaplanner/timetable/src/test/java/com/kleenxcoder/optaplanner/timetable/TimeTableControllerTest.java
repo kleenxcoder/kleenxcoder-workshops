@@ -20,9 +20,12 @@ import com.kleenxcoder.optaplanner.timetable.domain.TimeTable;
 import com.kleenxcoder.optaplanner.timetable.domain.Timeslot;
 import com.kleenxcoder.optaplanner.timetable.rest.TimeTableController;
 
+import lombok.extern.slf4j.Slf4j;
+
 @SpringBootTest(properties = {
         "optaplanner.solver.termination.spent-limit=1h", // Effectively disable this termination in favor of the best-score-limit
         "optaplanner.solver.termination.best-score-limit=0hard/*soft"})
+@Slf4j
 public class TimeTableControllerTest {
 
     @Autowired
@@ -39,6 +42,7 @@ public class TimeTableControllerTest {
             assertNotNull(lesson.getRoom());
         }
         assertTrue(solution.getScore().isFeasible());
+        log.debug(solution.toString());
     }
 
     private TimeTable generateProblem() {

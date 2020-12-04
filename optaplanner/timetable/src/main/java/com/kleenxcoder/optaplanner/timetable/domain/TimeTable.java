@@ -9,7 +9,10 @@ import org.optaplanner.core.api.domain.solution.ProblemFactCollectionProperty;
 import org.optaplanner.core.api.domain.valuerange.ValueRangeProvider;
 import org.optaplanner.core.api.score.buildin.hardsoft.HardSoftScore;
 
+import lombok.ToString;
+
 @PlanningSolution
+@ToString
 public class TimeTable {
 
     @ValueRangeProvider(id = "timeslotRange")
